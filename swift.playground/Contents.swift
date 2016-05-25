@@ -15,5 +15,12 @@ button.backgroundColor = UIColor.darkGrayColor()
 button.setTitle("My Button", forState: UIControlState.Normal)
 button.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
 
+button.layer.cornerRadius = 10
+button.layer.shadowColor = UIColor.blackColor().CGColor
+button.layer.shadowOpacity = 0.5
+button.layer.shadowOffset = CGSizeMake(10, 10)
+button.layer.shadowRadius = 10
+
+
 canvas.addSubview(button)
 canvas.addSubview(title)
