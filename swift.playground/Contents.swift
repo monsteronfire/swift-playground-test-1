@@ -24,3 +24,11 @@ button.layer.shadowRadius = 10
 
 canvas.addSubview(button)
 canvas.addSubview(title)
+
+var colours = ["red", "green", "blue"]
+colours[0]
+colours[1]
+colours[2]
+
+var shots = [["title": "Shot 1"], ["title": "Shot 2"]]
+shots[0]["title"]
